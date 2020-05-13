@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.Header {
+  /* background: lightcoral; */
+  padding: 20px;
+  border-bottom: 1px solid #444444;
+}
+.Header h1 {
+  /* background: green; */
+  display: inline-block;
+}
+.Header ul {
+  float: right;
+}
+.Header ul li {
+  display: inline-block;
+}
+.Header ul li a {
+  /* background: red; */
+  padding: 10px;
+  display: block;
+  color: #000;
+}
+
+.Sidebar {
+  float: left;
+  width: 30%;
+  background: red;
+  min-height: 300px;
+}
+
+.contentArea {
+  background: green;
+  min-height: 300px;
+  width: calc(100% - 30%);
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
